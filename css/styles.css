@@ -41,13 +41,7 @@ img {
 
 
 
-
-
-
-
-
-
-
+/*                Header            */
 
 .header .container {
     width: 1158px;
@@ -68,7 +62,6 @@ img {
 .page-nav {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .page-nav a {
@@ -78,8 +71,12 @@ padding: 24px 0;
 .adressinfo {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
-
+.info .containeradress{
+    display: flex;
+    justify-content:space-between;
+}
 
 .logoheader {
     font-family: "Raleway", sans-serif;
@@ -135,12 +132,7 @@ padding: 24px 0;
 
 
 
-
-
-
-
-
-
+/*             section-one          */
 
 .section-one .container {
     margin: 0 auto;
@@ -190,9 +182,7 @@ button:focus {
 
 
 
-
-
-
+/*            ssection-two            */
 
 .visually-hidden {
     position: absolute;
@@ -207,8 +197,6 @@ button:focus {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
 .section-two .container {
     margin: 0 auto;
     display: flex;
@@ -247,13 +235,11 @@ gap: 24px;
 
 
 
-
-
+/*            ssection-tree           */
 
 .section-tree .container {
 margin: 0 auto;
 }
-
 
 .section-tree {
     background-color: #f4f4fd;
@@ -262,8 +248,9 @@ margin: 0 auto;
 
 .members {
     display: flex;
+    width: flex-basis: calc((100% - 72px) / 4));
+     gap: 24px;
     justify-content: center;
-        gap: 24px;
 }
 
 .chel {
@@ -272,9 +259,8 @@ margin: 0 auto;
     border-radius: 0px 0px 4px 4px;
 }
 .containerworker{
-padding-bottom: 32px;
+padding: 32px 0;
 }
-
 
 .section-tree h2 {
     font-weight: 700;
@@ -308,11 +294,7 @@ padding-bottom: 32px;
 
 
 
-
-
-
-
-
+/*            ssection-four            */
 
 .section-four h2 {
     font-weight: 700;
@@ -342,9 +324,7 @@ padding-bottom: 32px;
 
 
 
-
-
-
+/*            footer          */
 
 .footer .container {
  margin: 0 auto;
