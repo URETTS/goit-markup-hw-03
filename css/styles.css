@@ -52,17 +52,36 @@ img {
 .header .container {
     width: 1158px;
     display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.page-nav .punkts {
-    display: inline;
+.page-nav {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 
-.logo {
+.page-nav a {
+padding: 24px 0;
+}
+
+.adressinfo {
+    display: flex;
+    gap: 40px;
+}
+
+
+.logoheader {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -70,7 +89,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    margin-right: 76px;
 }
 
 .logo-span {
@@ -111,7 +130,7 @@ img {
 }
 
 .info {
-    font-style: normal
+    font-style: normal;
 }
 
 
@@ -180,28 +199,32 @@ button:focus {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
-    clip: rect(0, 0, 0, 0);
-    overflow: hidden;
+    padding: 0;
+
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 
 .section-two .container {
     margin: 0 auto;
-    padding: 120px 0;
     display: flex;
         justify-content: center;
+}
+.section-two {
+padding: 120px 0;
 }
 
 .characteristic {
 max-width: 1128px;
 display: flex;
+gap: 24px;
 }
 
 .characteristic li {
-    margin-right: 24px;
     width: calc((100% - 72px) / 4)
 }
 
@@ -347,6 +370,15 @@ padding-bottom: 32px;
     padding: 100px 0;
     
 }
+.logofooter {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
 .logo-span-footer {
     font-family: "Raleway", sans-serif;
@@ -356,6 +388,4 @@ padding-bottom: 32px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-
-
 }
