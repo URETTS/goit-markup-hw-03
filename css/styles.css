@@ -305,6 +305,20 @@ display: flex;
 
 
 
+.footer .container {
+margin: 0 auto;
+    padding: 100px 0;
+    padding-left: 156px;
+    
+}
+
+.footer a {
+    display: inline-block;
+    margin-bottom: 16px
+}
+.footer p {
+    max-width: 264px;
+}
 
 .footer {
     background-color: #2E2F42;
@@ -313,6 +327,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    
 }
 
 .logo-span-footer {
@@ -323,4 +338,6 @@ display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+
+
 }
