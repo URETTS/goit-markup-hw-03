@@ -238,6 +238,7 @@ gap: 24px;
 
 .section-tree .container {
 margin: 0 auto;
+width: 1158px;
 
 }
 
@@ -248,15 +249,16 @@ margin: 0 auto;
 
 .members {
     display: flex;
-   flex-basis: calc((100% - 72px) / 4);
      gap: 24px;
     justify-content: center;
+}
+.members li {
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .chel {
     background-color: #ffffff;
-    gap: 24px;
-    border-radius: 0px 0px 4px 4px;
 }
 .containerworker{
 padding: 32px 0;
