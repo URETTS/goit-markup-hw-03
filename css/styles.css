@@ -125,11 +125,11 @@ img {
 
 .section-one .container {
     margin: 0 auto;
-    padding: 188px 0;
     }
 
 .section-one {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .section-one h1 {
@@ -227,17 +227,31 @@ display: flex;
 
 
 
-
-
+.section-tree .container {
+margin: 0 auto;
+}
 
 
 .section-tree {
     background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+        gap: 24px;
 }
 
 .chel {
     background-color: #ffffff;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
+.containerworker{
+padding-bottom: 32px;
+}
+
 
 .section-tree h2 {
     font-weight: 700;
@@ -247,6 +261,7 @@ display: flex;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .section-tree h3 {
@@ -255,6 +270,8 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px
 }
 
 .section-tree p {
@@ -263,6 +280,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 
@@ -306,8 +324,7 @@ display: flex;
 
 
 .footer .container {
-margin: 0 auto;
-    padding: 100px 0;
+ margin: 0 auto;
     padding-left: 156px;
     
 }
@@ -327,6 +344,7 @@ margin: 0 auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding: 100px 0;
     
 }
 
